@@ -1,4 +1,4 @@
-# single-machine-total-weighted-tardiness-instances
+# Instances for the Single Machine Total Weighted Tardiness Scheduling Problem
 Instances for the single machine total weighted tardiness scheduling problem
 
 # License
