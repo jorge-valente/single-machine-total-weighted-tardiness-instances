@@ -1,10 +1,7 @@
 # Instances for the Single Machine Total Weighted Tardiness Scheduling Problem
 This repository contains training and test instances for the single machine total weighted tardiness scheduling problem.
-
 &nbsp;
-
 &nbsp;
-
 More specifically, the instances are those proposed and described in the following paper:
 
 Ana Sofia M. Martins, Jorge M. S. Valente and Jeffrey E. Schaller (under revision), "A Computational Evaluation of New and Existing Dispatching Rules for the Single Machine Total Weighted Tardiness Problem".
