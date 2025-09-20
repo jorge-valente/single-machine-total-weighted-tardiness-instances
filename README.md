@@ -1,13 +1,12 @@
 # Instances for the Single Machine Total Weighted Tardiness Scheduling Problem
 This repository contains training and test instances for the single machine total weighted tardiness scheduling problem.
-&nbsp;
-
-&nbsp;
 
 More specifically, the instances are those proposed and described in the following paper:
 
 Ana Sofia M. Martins, Jorge M. S. Valente and Jeffrey E. Schaller (under revision), "A Computational Evaluation of New and Existing Dispatching Rules for the Single Machine Total Weighted Tardiness Problem".
+&nbsp;
 
+&nbsp;
 
 The zip files "training_set.zip" and "test_set.zip" contain the training instances and test instances, respectively.
 
@@ -19,7 +18,9 @@ The following values were used for n, T and R:
 n: 50, 100, 250, 500, 1000, 2000
 T: 0.2, 0.4, 0.6, 0.8, 1.0
 R: 0.2, 0.4, 0.6, 0.8, 1.0
+&nbsp;
 
+&nbsp;
 
 The first line of each file is the following header: job_index,processing_time,tardiness_unit_time_cost,due_date
 
@@ -30,9 +31,14 @@ The (integer) processing times pj were generated from a uniform distribution U(1
 The (integer) tardiness unit time costs wj were generated from a uniform distribution U(1, 10).
 
 The (integer) due dates dj were generated from a uniform distribution (P * (1 - T - R/2), P * (1 - T + R/2)), where P is the sum of the processing times pj.
+&nbsp;
 
+&nbsp;
 
 For any questions, please contact the corresponding author, Jorge M. S. Valente.
+&nbsp;
+
+&nbsp;
 
 # License
 [![CC BY 4.0][cc-by-shield]][cc-by]
