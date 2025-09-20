@@ -1,9 +1,12 @@
 # Instances for the Single Machine Total Weighted Tardiness Scheduling Problem
 This repository contains training and test instances for the single machine total weighted tardiness scheduling problem.
+
 More specifically, the instances are those proposed and described in the following paper:
+
 Ana Sofia M. Martins, Jorge M. S. Valente and Jeffrey E. Schaller (under revision), "A Computational Evaluation of New and Existing Dispatching Rules for the Single Machine Total Weighted Tardiness Problem".
 
 The zip files "training_set.zip" and "test_set.zip" contain the training instances and test instances, respectively.
+
 All instances are in CSV format, and named according to the following convention: n-T-R-i, where n is the number of jobs, T is the value of the tardiness factor, R is the value of the due date range factor, and i is the number of the instance (for a given combination of n, T and R).
 For each combination of n, T and R, there are 10 instances in the training set and 100 instances in the test set.
 The following values were used for n, T and R:
