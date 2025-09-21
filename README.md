@@ -3,16 +3,16 @@ This repository contains training and test instances for the single machine tota
 
 More specifically, the instances are those proposed and described in the following paper:
 
-Ana Sofia M. Martins, Jorge M. S. Valente and Jeffrey E. Schaller (under revision), "A Computational Evaluation of New and Existing Dispatching Rules for the Single Machine Total Weighted Tardiness Problem".
+Ana Sofia M. Martins, Jorge M. S. Valente and Jeffrey E. Schaller (undergoing the second revision in International Transactions in Operational Research), "A Computational Evaluation of New and Existing Dispatching Rules for the Single Machine Total Weighted Tardiness Problem".
 &nbsp;
 
 &nbsp;
 
-The zip files "training_set.zip" and "test_set.zip" contain the training instances and test instances, respectively.
+The zip files "training_set.zip" and "test_set.zip" contain the training  and test instances, respectively.
 
-All instances are in CSV format, and named according to the following convention: *n*-*T*-*R*-*i*, where *n* is the number of jobs, *T* is the value of the tardiness factor, *R* is the value of the due date range factor, and *i* is the number of the instance (for a given combination of *n*, *T* and *R*).
+All instances are in CSV format, and named according to the following convention: *n*-*T*-*R*-*i*, where *n* is the number of jobs, *T* is the value of the tardiness factor, *R* is the value of the due date range factor, and *i* is the number of the instance (for a given combination of *n*, *T* and *R*). So, and as an example, instance 250-0.2-0.4-5  is the fifth instance among those with 250 jobs, a tardiness factor of 0.2 and a due date range factor of 0.4.
 
-For each combination of *n*, *T* and *R*, there are 10 instances in the training set and 100 instances in the test set.
+For each combination of *n*, *T* and *R*, there are 10 instances in the training set and 100 instances in the test set. So, for a given combination of *n*, *T* and *R*, *i* goes from 1 to 10 in the training set and from 1 to 100 in the test set.
 
 The following values were used for *n*, *T* and *R*:
 *n*: 50, 100, 250, 500, 1000, 2000
@@ -30,12 +30,13 @@ The integer times *pj* were generated from a uniform distribution U(1, 100).
 
 The integer tardiness unit time costs *wj* were generated from a uniform distribution U(1, 10).
 
-The integer due dates *dj* were generated from a uniform distribution (*P* X (*1* - *T* - *R*/2), P X (1 - *T* + *R*/2)), where *P* is the sum of the processing times *pj*.
+The integer due dates *dj* were generated from a uniform distribution (*P* X (*1* - *T* - *R*/2), P X (1 - *T* + *R*/2)), where *P* is the sum of the processing times *pj* of all jobs.
 &nbsp;
 
 &nbsp;
 
-For any questions, please contact the corresponding author, Jorge M. S. Valente.
+As noted below, a CC-BY-SA-4.0 license has been applied to these instances. We please ask you to comply with the terms of this license, and to always perform a proper attribution if you use these instances.
+For any questions, please contact the corresponding author, Jorge M. S. Valente (jvalente *at* fep.up.pt).
 &nbsp;
 
 &nbsp;
