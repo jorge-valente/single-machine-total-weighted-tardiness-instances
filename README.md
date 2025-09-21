@@ -15,8 +15,11 @@ All instances are in CSV format, and named according to the following convention
 For each combination of *n*, *T* and *R*, there are 10 instances in the training set and 100 instances in the test set. So, for a given combination of *n*, *T* and *R*, *i* goes from 1 to 10 in the training set and from 1 to 100 in the test set.
 
 The following values were used for *n*, *T* and *R*:
+
 *n*: 50, 100, 250, 500, 1000, 2000
+
 *T*: 0.2, 0.4, 0.6, 0.8, 1.0
+
 *R*: 0.2, 0.4, 0.6, 0.8, 1.0
 &nbsp;
 
