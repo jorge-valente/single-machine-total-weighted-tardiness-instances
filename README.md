@@ -12,7 +12,7 @@ The zip files "training_set.zip" and "test_set.zip" contain the training  and te
 
 All instances are in CSV format, and named according to the following convention: *n*-*T*-*R*-*i*, where *n* is the number of jobs, *T* is the value of the tardiness factor, *R* is the value of the due date range factor, and *i* is the number of the instance (for a given combination of *n*, *T* and *R*). So, and as an example, instance 250-0.2-0.4-5  is the fifth instance among those with 250 jobs, a tardiness factor of 0.2 and a due date range factor of 0.4.
 
-For each combination of *n*, *T* and *R*, there are 10 instances in the training set and 100 instances in the test set. So, for a given combination of *n*, *T* and *R*, *i* goes from 1 to 10 in the training set and from 1 to 100 in the test set.
+For each combination of *n*, *T* and *R*, there are 10 instances in the training set and 100 instances in the test set. So, for any given combination of *n*, *T* and *R*, *i* goes from 1 to 10 in the training set and from 1 to 100 in the test set.
 
 The following values were used for *n*, *T* and *R*:
 
