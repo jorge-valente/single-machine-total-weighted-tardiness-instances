@@ -3,7 +3,7 @@ This repository contains training and test instances for the single machine tota
 
 More specifically, the instances are those proposed and described in the following paper:
 
-Ana Sofia M. Martins, Jorge M. S. Valente and Jeffrey E. Schaller, "A Computational Evaluation of New and Existing Dispatching Rules for the Single Machine Total Weighted Tardiness Problem", accepted for publication in International Transactions in Operational Research.
+Ana Sofia M. Martins, Jorge M. S. Valente and Jeffrey E. Schaller, "A Computational Evaluation of New and Existing Dispatching Rules for the Single Machine Total Weighted Tardiness Problem", accepted for publication in International Transactions in Operational Research, doi: https://doi.org/10.1111/itor.70146.
 &nbsp;
 
 &nbsp;
